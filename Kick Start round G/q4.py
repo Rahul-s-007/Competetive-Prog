@@ -1,6 +1,6 @@
 import sys 
-sys.stdin = open("C:\\Users\\LENOVO\\Desktop\\CP\\input.txt","r")
-sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\CP\\output.txt","w")
+sys.stdin = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\input.txt","r")
+sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\output.txt","w")
 
 for temp in range(int(input())):
     #n = int(input())

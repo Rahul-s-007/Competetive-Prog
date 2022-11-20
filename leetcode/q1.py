@@ -1,6 +1,6 @@
 import sys 
-sys.stdin = open("C:\\Users\\LENOVO\\Desktop\\CP\\input.txt","r")
-sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\CP\\output.txt","w")
+sys.stdin = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\input.txt","r")
+sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\output.txt","w")
 
 image = [[1,1,1],[1,1,0],[1,0,1]]
 sr = 1

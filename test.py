@@ -1,4 +1,10 @@
 """
+import sys 
+sys.stdin = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\input.txt","r")
+sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\output.txt","w")
+"""
+
+"""
 t1 = 1 ^ 2
 t2 = format(t1 , 'b')
 print(t2)
