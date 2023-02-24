@@ -1,9 +1,4 @@
-4
 3
-aaa
-3
-abc
-5
-bcaca
-6
-caabaa
+52
+7932
+56

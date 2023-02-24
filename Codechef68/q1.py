@@ -5,6 +5,34 @@ sys.stdout = open("C:\\Users\\LENOVO\\Desktop\\Competetive Prog\\output.txt","w"
 #Question: https://www.codechef.com/START68C/problems/BORSTR?tab=statement
 #Sol: https://www.codechef.com/viewsolution/81985882 
 
+
+"""
+for temp in range(int(input())):
+    l = int(input())
+    s = str(input())
+
+    set_l = len(set(s))
+    max_sc = l - set_l
+    ch = "abcdefghijklmnopqrstuvwxyz"
+
+    if(set_l == 1):
+        print(l-1)
+    elif(l == set_l):
+        print(0)
+    else:
+        flag = 0
+        for j in reversed(range(1,max_sc+1)):
+            for i in ch:
+                if(s.count(i*j) >= 2):
+                    print(j)
+                    flag = 1
+                    break
+            if(flag == 1):
+                break
+"""
+
+
+"""
 for temp in range(int(input())):
     l = int(input())
     s = str(input())
@@ -24,7 +52,12 @@ for temp in range(int(input())):
                 break
         if(flag == 1):
             break
+
+    if(flag==0):
+        print(0)
     print("-----")
+"""
+
 
 """
 for temp in range(int(input())):
