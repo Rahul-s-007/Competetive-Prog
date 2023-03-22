@@ -16,18 +16,24 @@ for temp in range(int(input())):
     flag = 0
     s = 9 - (s%9)
     #print(s)
+    #print(pos)
+    ins = 0
     for i in range(10):
         if(flag == 0):
             if(pos[i] == -1):
                 continue
             else:
-                if(i<=s):
+                if(i<s):
                     ins = pos[i]+1
-                else:
-                    ins = pos[i]
-                flag = 1
-
-    if(flag == 0):
-        print(f"Case #{temp+1}: {inp+str(s)}")
-    else:
-        print(f"Case #{temp+1}: {inp[:ins]+str(s)+inp[ins:]}")
+                elif(i==s):
+                    pass
+                else: # i>=s
+                    if(pos[i]<ins):
+                        ins = pos[i]
+                #flag = 1
+                #print(ins)
+    print(f"Case #{temp+1}: {inp[:ins]+str(s)+inp[ins:]}")
+    #if(flag == 0):
+    #    print(f"Case #{temp+1}: {inp+str(s)}")
+    #else:
+    #    print(f"Case #{temp+1}: {inp[:ins]+str(s)+inp[ins:]}")
